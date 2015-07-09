@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="http://js.arcgis.com/3.12/esri/css/esri.css">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script src="http://js.arcgis.com/3.12/"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>arcgis map fn tests</title>
+</head>
+<body>
+
+<div id="container">
+  <div id="searchbar">
+	<input class="search" placeholder="Szukaj" id="searchInput"/>
+	<button class="sort" data-sort="name" id="searchBtn"> Szukaj </button>
+  </div>
+
+  
+  <div id="mapDiv" class="shadow"></div>
+  <div id="HomeButton"></div>
+    
+    
+  
+</div>
+    
+<div id="notes">
+    <p>
+        addQueryTask: w polu szukaj wpisz nazwę jaskini, mapa przybliży widok na ten obiekt np. Schronisko z Oknem, Śnieżna, Wielka..
+        <br>
+        projectToLatLon: dodaj funkcje przez konsole przeglądarki FUNCTIONS.projectToLatLon(); kliknij dowolny punkt na widoku mapy - w popupie kliknij przelicz do WGS
+        <br>
+        scaleDependedRenderer: przybliż żeby zobaczyć warstwę grawimetria - symbole jednej warstwy zmieniają się w zależności od przybliżenia
+    </p>
+</div>
+    
+</body>
+</html>

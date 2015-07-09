@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #FFF;
+	overflow: hidden;
+	font-family: "Trebuchet MS";
+}
+
+#container {
+	display:-webkit-flex;
+	display: flex;
+	width: 900px;
+	margin:auto;
+	position: relative;
+}
+
+#mapDiv {
+	height: 600px;
+	width: 900px;
+	padding: 0;
+	margin: 0;
+	-webkit-flex:1;
+	margin: 1%;
+	position: absolute;
+}
+#HomeButton {
+	z-index: 3;
+	width: 50px;
+	position: absolute;
+    top: 100px;
+    left: 28px;
+}
+.shadow {
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+}
+.logo-med {
+	background-image: url("img/powered.png") !important;
+	height: 52px !important;
+	margin-bottom: 2%;
+}
+
+#searchbar {
+	position: absolute;
+	top: 25px;
+    right: 10px;
+	z-index: 3;
+}
+input {
+  border:solid 1px #000;
+  border-radius: 5px;
+  padding:7px 14px;
+  margin-bottom:10px
+}
+input:focus {
+  outline:none;
+  border-color:#ccc;
+}
+.sort {
+  padding:8px 10px;
+  border-radius: 6px;
+  border:none;
+  display:inline-block;
+  color:#fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+  height:30px;
+}
+.sort:hover {
+  text-decoration: none;
+  background-color:#1b8aba;
+}
+.sort:focus {
+  outline:none;
+}
+.sort:after {
+  display:inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content:"";
+  position: relative;
+  top:-10px;
+  right:-5px;
+}
+#notes {
+    position: absolute;
+    bottom: 10px;
+}
